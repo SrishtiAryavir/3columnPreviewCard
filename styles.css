@@ -1,0 +1,96 @@
+body{
+  font-size:15px;
+  font-family: 'Lexend Deca', sans-serif;
+  color:hsl(0, 0%, 95%);
+  background-color: hsl(0, 0%, 95%);
+}
+h1{
+  font-family: 'Big Shoulders Display', cursive;
+  margin:0;
+  padding:15% 0;
+  color:hsl(0, 0%, 95%);
+}
+p{
+  color:hsla(0, 0%, 100%, 0.75);
+  line-height:2;
+  text-align: left;
+}
+
+.container-fluid{
+  padding:7% 15%;
+
+}
+
+.row{
+  width:auto;
+
+}
+.col-lg-4{
+  padding:5% 7%;
+}
+
+/* SEDAN */
+
+.sedan_col{
+  background-color:hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+}
+.sedan-button{
+  color:hsl(31, 77%, 52%);
+}
+.sedan-button:hover{
+  background-color:hsl(31, 77%, 52%);
+  color:#fff;
+}
+
+/* SUV */
+.suv_col{
+  background-color:hsl(184, 100%, 22%);
+}
+.suv-button{
+  color:hsl(184, 100%, 22%);
+}
+.suv-button:hover{
+  background-color:hsl(184, 100%, 22%);
+  color:hsl(0, 0%, 95%);
+}
+
+/* LUX */
+.lux_col{
+  background-color:hsl(179, 100%, 13%);
+  border-radius:0 10px 10px 0;
+}
+.lux-button{
+  color:hsl(179, 100%, 13%);
+}
+.lux-button:hover{
+  background-color:hsl(179, 100%, 13%);
+  color:#fff;
+}
+/* BUTTONS */
+.btn{
+  border-radius: 25px;
+  margin-top:30%;
+  padding:10px 35px;
+
+}
+
+/* END LINKS */
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
+/* PHONE SCREEN */
+@media (max-width: 576px) {
+
+
+  .sedan_col {
+    border-radius: 10px 10px 0 0;
+  }
+  .lux_col {
+    border-radius: 0 0 10px 10px;
+  }
+}
